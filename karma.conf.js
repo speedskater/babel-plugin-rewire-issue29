@@ -18,7 +18,7 @@ module.exports = function(config) {
 
         webpack: {
             module: {
-                loaders: [{ test: /\.js?$/, loader: 'babel-loader?plugins=babel-plugin-rewire', }]
+                loaders: [{ test: /\.js$/, loader: 'babel-loader?plugins=babel-plugin-rewire', }]
             }
         },
 
